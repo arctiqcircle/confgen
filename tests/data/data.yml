@@ -1,0 +1,17 @@
+---
+- name: "File1"
+  field1: sample11
+  field2: sample12
+  field3:
+    - nested_field1: "nested_sample111"
+      nested_field2: "nested_sample112"
+    - nested_field1: "nested_sample121"
+      nested_field2: "nested_sample122"
+- name: "File2"
+  field1: sample21
+  field2: sample22
+  field3:
+    - nested_field1: "nested_sample211"
+      nested_field2: "nested_sample212"
+    - nested_field1: "nested_sample221"
+      nested_field2: "nested_sample222"

@@ -1,0 +1,7 @@
+This Template renders a loop as well as top-level fields.
+This includes Field1: {{ field1 }}
+This also includes Field2: {{ field2 }}
+{% for entry in field3 -%}
+This is the entry of field3 for nested_field1: {{ entry.nested_field1 }}
+This is the entry of field3 for nested_field2: {{ entry.nested_field2 }}
+{% endfor -%}
